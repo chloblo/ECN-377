@@ -15,3 +15,12 @@ sec() #creates a sequence of numbers
 rep() #repeats a value
 sum()#adds all the values together 
 sum(x*probability)#E(X) finds the expected value
+Cov(X,Y) = E[XY] - E[X]*E[Y] 
+sdX= sqrt(EX - EX^2) #standard deviation of x
+sdY= sqrt(EY-EY^2)  #standard deviation of y
+Cor = Cov / (sdX * sdY) #correlation of (x,y)
+sdX=sqrt(varX) #sdX= sqrt(EX - EX^2)
+sdY=sqrt(varY) #sdY= sqrt(EY-EY^2) 
+e(xy) #muliply x*y then add , then multiply by probability
+b1 <- cov(x,y)/var(x)        # slope      -- the derived formula:  cov(x, y) / var(x)
+b0 <- mean(y)-b1*mean(x)        # intercept  -- mean(y) - b1 * mean(x)
