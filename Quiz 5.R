@@ -27,4 +27,9 @@ Cov(X,Y)=E[XY]-E[x]E[Y]
 
 Var(X)=E[X^2]-E[X]^2
 
+y^=b0+b1x #OLS line
+
+sum(x*p) #EX
+sum(y*p) #EY
+sum (x*y*p) #EXY
 
